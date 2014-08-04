@@ -1,6 +1,6 @@
 # Hex Color Converter
 
-Converts a hex color code (#FFFFFF) to RGB values (r: 255, G: 255, B: 255).
+Converts a hex color code (#FFFFFF) to RGB values (R: 255, G: 255, B: 255).
 
 ## Instructions
 
@@ -12,5 +12,5 @@ Ruby BDD assessment for [Epicodus](http://epicodus.com)
 
 2 August 2014
 
-by [Andrew M Westling](https://andrewwestling.com)
+by [Andrew M Westling](https://andrewwestling.com)  
 (a@andrewwestling.com)
