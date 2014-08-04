@@ -1,6 +1,10 @@
 # Hex Color Converter
 
-Converts a hex color code (#RRGGBB) to RGB values (255,255,255).
+Converts a hex color code (#FFFFFF) to RGB values (r: 255, G: 255, B: 255).
+
+## Instructions
+
+clone the repository or download as .zip, then run `$ ruby hex_ui.rb` in Terminal
 
 ## Meta
 
