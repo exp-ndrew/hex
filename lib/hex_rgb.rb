@@ -1,6 +1,3 @@
-# thinking ahead: regex for validation of input... 
-# /([\d|([a-fA-F])]{6})/
-
 def hex_rgb input
 
   hex_hash = break_apart(input) 
@@ -13,7 +10,6 @@ end
 
 
 def break_apart input
-  # breaks up the #f1553a input into {"r" => ["f",1], "g" => [5,5], "b" => [3,"a"]}
 
   hex_hash = { :r => [], :g => [], :b => []}
   
@@ -42,10 +38,7 @@ def convert_to_rgb hex_hash
                   14 => "e",
                   15 => "f",
               }
-  # takes the break_apart result and converts each value into a base10 number
-  # input (hex_hash) looks like {:r => ["f","1"], :g => ["5","5"], :b => ["3","a"]}
-  # output (rgb_hash) looks like {:r => 241, :g => 85 :b => 58}
-
+              
   rgb_hash = {:r => 0, :g => 0, :b => 0}
 
   hex_hash.each_pair do |key, value|
