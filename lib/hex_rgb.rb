@@ -5,9 +5,9 @@ def hex_rgb input
 
   hex_hash = break_apart(input) 
   rgb_hash = convert_to_rgb(hex_hash) 
-  rgb = interpret(rgb_hash) 
+  rgb_string = interpret(rgb_hash) 
 
-  rgb
+  rgb_string
 
 end
 
@@ -68,8 +68,6 @@ end
 
 
 def interpret rgb_hash
-  # rgb_hash looks like {:r => 241, :g => 85 :b => 58}
-
 
   rgb_string = ""
 
