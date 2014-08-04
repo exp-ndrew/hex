@@ -12,5 +12,5 @@ Ruby BDD assessment for [Epicodus](http://epicodus.com)
 
 2 August 2014
 
-by [Andrew M Westling](https://andrewwestling.com)  
-(a@andrewwestling.com)
+by [Andrew M Westling](http://andrewwestling.com)  
+a@andrewwestling.com
